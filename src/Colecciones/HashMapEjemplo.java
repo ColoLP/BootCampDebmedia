@@ -21,6 +21,8 @@ public class HashMapEjemplo {
     *   CArlos aldjoqsjdoqjdopqjopdwq
     *
     * dwqdwqdwqdwqdwqdqwdqdqdqw
+    *   Voy a emular un conflicto para poder usar el git stash
+    *   EStoy en la rama de tomas!
     * */
 
     public static void main(String[] args) {
