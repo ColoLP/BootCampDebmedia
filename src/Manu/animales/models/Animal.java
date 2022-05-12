@@ -2,7 +2,7 @@ package Manu.animales.models;
 
 public abstract class Animal {
 
-    //metodo abstracto
+    //metodo abstracto.
     abstract public void hablar();
 
 }
