@@ -18,7 +18,7 @@ public class HashMapEjemplo {
     *  La clase TreeMap es idéntica a HashMap con la salvedad que mantiene ordenado los datos por la clave.
 
     *  Finalmente la clase LinkedHashMap mantiene ordenado los elementos del mapa según el orden de inserción.
-    *
+    *   CArlos aldjoqsjdoqjdopqjopdwq
     * */
 
     public static void main(String[] args) {
