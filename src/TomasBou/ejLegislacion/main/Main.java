@@ -1,8 +1,8 @@
-package ejLegislacion.main;
+package TomasBou.ejLegislacion.main;
 
-import ejLegislacion.Diputado;
-import ejLegislacion.Legislador;
-import ejLegislacion.Senador;
+import TomasBou.ejLegislacion.Diputado;
+import TomasBou.ejLegislacion.Legislador;
+import TomasBou.ejLegislacion.Senador;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,6 @@
-package Animals.clases;
+package TomasBou.Animals.clases;
 
-import Animals.clases.Animal;
-import Animals.interfaces.ComerCarne;
+import TomasBou.Animals.interfaces.ComerCarne;
 
 public class Perro extends Animal implements ComerCarne {
 

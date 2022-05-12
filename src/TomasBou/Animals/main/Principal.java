@@ -1,9 +1,9 @@
-package Animals.main;
+package TomasBou.Animals.main;
 
-import Animals.clases.Animal;
-import Animals.clases.Perro;
-import Animals.clases.Gato;
-import Animals.clases.Vaca;
+import TomasBou.Animals.clases.Animal;
+import TomasBou.Animals.clases.Perro;
+import TomasBou.Animals.clases.Gato;
+import TomasBou.Animals.clases.Vaca;
 
 import java.util.ArrayList;
 import java.util.Scanner;

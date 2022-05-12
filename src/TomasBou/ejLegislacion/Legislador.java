@@ -1,4 +1,4 @@
-package ejLegislacion;
+package TomasBou.ejLegislacion;
 
 public abstract  class Legislador extends Persona {
 
@@ -6,7 +6,7 @@ public abstract  class Legislador extends Persona {
 
     public Legislador(String nombre, String provinciaQueRepresenta) {
         super(nombre);
-        this.provinciaQueRepresenta= this.provinciaQueRepresenta;
+        this.provinciaQueRepresenta= provinciaQueRepresenta;
     }
 
     public abstract String getCamaraEnQueTrabaja();

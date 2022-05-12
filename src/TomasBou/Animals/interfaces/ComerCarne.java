@@ -1,4 +1,4 @@
-package Animals.interfaces;
+package TomasBou.Animals.interfaces;
 
 public interface ComerCarne {
 

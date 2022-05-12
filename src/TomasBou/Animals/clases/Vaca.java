@@ -1,7 +1,6 @@
-package Animals.clases;
+package TomasBou.Animals.clases;
 
-import Animals.clases.Animal;
-import Animals.interfaces.ComerHierba;
+import TomasBou.Animals.interfaces.ComerHierba;
 
 public class Vaca extends Animal implements ComerHierba{
 

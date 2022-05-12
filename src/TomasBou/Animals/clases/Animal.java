@@ -1,4 +1,4 @@
-package Animals.clases;
+package TomasBou.Animals.clases;
 
 import java.util.Scanner;
 public abstract class  Animal {

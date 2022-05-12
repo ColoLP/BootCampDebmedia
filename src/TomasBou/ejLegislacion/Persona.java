@@ -1,4 +1,4 @@
-package ejLegislacion;
+package TomasBou.ejLegislacion;
 
 public class Persona {
 
