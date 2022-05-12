@@ -19,6 +19,8 @@ public class HashMapEjemplo {
 
     *  Finalmente la clase LinkedHashMap mantiene ordenado los elementos del mapa según el orden de inserción.
     *   CArlos aldjoqsjdoqjdopqjopdwq
+    *
+    * dwqdwqdwqdwqdwqdqwdqdqdqw
     * */
 
     public static void main(String[] args) {
