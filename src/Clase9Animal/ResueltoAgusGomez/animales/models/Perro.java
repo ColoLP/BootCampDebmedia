@@ -16,12 +16,12 @@ public class Perro extends Animal implements Carne {
     //Métodos
     @Override
     public String hablar() {
-        return"ladra";
+        return "Perro Que ladra no muerde";
     }
 
     @Override
     public String comerCarne() {
-        return "come carne.";
+        return "Me encanta la carne.";
     }
 
     @Override
