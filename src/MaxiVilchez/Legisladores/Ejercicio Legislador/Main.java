@@ -2,7 +2,6 @@ import Modelos.Legislador;
 import Modelos.Diputado;
 import Modelos.Senador;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 
