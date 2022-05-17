@@ -15,12 +15,12 @@ public class Gato extends Animal implements Carne {
     //Métodos
     @Override
     public String hablar() {
-        return "maulla";
+        return "Hago miau, por que soy un gato";
     }
 
     @Override
     public String comerCarne() {
-        return "come carne.";
+        return "come carne roja y salmon.";
     }
 
     @Override
