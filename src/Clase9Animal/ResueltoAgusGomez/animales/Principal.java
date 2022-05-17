@@ -1,6 +1,9 @@
-package debmedia.ejercicios.animales;
+package Clase9Animal.ResueltoAgusGomez.animales;
 
-import debmedia.ejercicios.animales.models.*;
+import Clase9Animal.ResueltoAgusGomez.animales.models.Animal;
+import Clase9Animal.ResueltoAgusGomez.animales.models.Gato;
+import Clase9Animal.ResueltoAgusGomez.animales.models.Perro;
+import Clase9Animal.ResueltoAgusGomez.animales.models.Vaca;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -91,6 +94,5 @@ public class Principal {
 
 
     }
-
 
 }

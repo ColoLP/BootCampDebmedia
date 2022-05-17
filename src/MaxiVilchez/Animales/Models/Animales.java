@@ -1,4 +1,4 @@
-package Modelos;
+package Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models;
 
 import java.util.InputMismatchException;
 

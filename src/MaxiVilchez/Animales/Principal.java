@@ -1,6 +1,15 @@
+package Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales;
+
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Animales;
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Gato;
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Perro;
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Vaca;
 import Interfaces.Carnivoro;
 import Interfaces.Herbivoro;
+<<<<<<<< HEAD:src/MaxiVilchez/Animales/Ejercicio Animales/Principal.java
 
+========
+>>>>>>>> 64eec0ca58fa57b172dbbdfff97f0d2ed6e9e23e:src/Clase9Animal/Resueltos_MaxiVilchez/EjercicioAnimales/Principal.java
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
