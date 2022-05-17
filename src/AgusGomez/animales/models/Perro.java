@@ -1,31 +1,33 @@
-package Clase9Animal.ResueltoAgusGomez.animales.models;
+package AgusGomez.animales.models;
 
-import debmedia.ejercicios.animales.interfaces.Carne;
+import AgusGomez.animales.interfaces.Carne;
+import Clase9Animal.ResueltoLucas.Models.Animal;
 
-public class Gato extends Animal implements Carne {
+public class Perro extends Animal implements Carne {
     //Constructores
 
-    public Gato() {
+
+    public Perro() {
     }
 
-    public Gato(String colorDePelo, String nombre, int edad) {
+    public Perro(String colorDePelo, String nombre, int edad) {
         super(colorDePelo, nombre, edad);
     }
 
     //Métodos
     @Override
     public String hablar() {
-        return "Hago miau, por que soy un gato";
+        return"el perro ladra";
     }
 
     @Override
     public String comerCarne() {
-        return "come carne roja y salmon.";
+        return "come carne y pollo.";
     }
 
     @Override
     public String toString() {
-        return "Nombre del gato: " + this.getNombre() +
+        return "Nombre del perro: " + this.getNombre() +
                 "\nColor de pelo: " + this.getColorDePelo() +
                 "\nEdad: " + this.getEdad() +
                 "\n" + getNombre() + " " + hablar() + " y " + comerCarne();

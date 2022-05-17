@@ -1,4 +1,4 @@
-package debmedia.ejercicios.animales.interfaces;
+package AgusGomez.animales.interfaces;
 
 public interface Hierba {
 

@@ -1,21 +1,21 @@
-package debmedia.ejercicios.legisladores.models;
+package AgusGomez.legisladores.models;
 
-public class Senador extends Legislador {
+public class Diputado extends Legislador {
 
     //Constructores
-    public Senador(String nombre, String apellido, int edad) {
+    public Diputado(String nombre, String apellido, int edad) {
         super(nombre, apellido, edad);
     }
 
     //Métodos
     @Override
     public String getCamaraEnQueTrabaja() {
-        return "Integrante de la Cámara de Senadores.";
+        return "Integrante de la Cámara de Diputados.";
     }
 
     @Override
     public String toString() {
-       StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         sb.append("Nombre: ").append(getNombre())
                 .append("\nApellido: ").append(getApellido())
                 .append("\nEdad: ").append(getEdad())
