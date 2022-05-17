@@ -1,6 +1,5 @@
 import Interfaces.Carnivoro;
 import Interfaces.Herbivoro;
-import Modelos.*;
 
 
 import java.util.ArrayList;
