@@ -1,7 +1,6 @@
-package AgusGomez.animales.models;
+package Clase9Animal.ResueltoAgusGomez.animales.models;
 
-import AgusGomez.animales.interfaces.Carne;
-import Clase9Animal.ResueltoLucas.Models.Animal;
+import debmedia.ejercicios.animales.interfaces.Carne;
 
 public class Perro extends Animal implements Carne {
     //Constructores
@@ -23,6 +22,7 @@ public class Perro extends Animal implements Carne {
     @Override
     public String comerCarne() {
         return "come carne y pollo.";
+        return "Me encanta la carne.";
     }
 
     @Override

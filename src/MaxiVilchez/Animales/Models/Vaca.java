@@ -1,30 +1,31 @@
-package Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models;
+package MaxiVilchez.Animales.Models;
 
-import Interfaces.Carnivoro;
+import Interfaces.Herbivoro;
 
+public class Vaca extends Animales implements Herbivoro {
 
-public class Perro extends Animales implements Carnivoro {
-
-    //Constructores
-    public Perro(String sonido, boolean hambre, String colorDePelo, String nombre, int edad) {
+      //Constructores
+    public Vaca(String sonido, boolean hambre, String colorDePelo, String nombre, int edad) {
         super(sonido, hambre, colorDePelo, nombre, edad);
+
     }
 
     //Metodos
-
     @Override
     public void hablar() {
-        System.out.println(this.getSonido());
+       System.out.println(this.getSonido());
+       System.out.println("Hola Hola");
+       System.out.println("Conflicto!");
     }
 
     @Override
-    public void comerCarne() {
+    public void comerHierba() {
         setHambre(false);
     }
 
     @Override
     public String toString() {
-        return "Perro" + "\n" +
+        return "Vaca " + "\n" +
                 "Nombre: " + this.getNombre() + "\n" +
                 "Hace " + this.getSonido() + "\n" +
                 "Edad: " + this.getEdad() + "\n" +
