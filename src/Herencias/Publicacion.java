@@ -38,27 +38,15 @@ public class Publicacion {
 
     @Override
     public String toString() {
-        return «Publicacion [codigo=» + codigo + «, titulo=» + titulo + «, anio=» + anio + «]»;
+        return "Publicacion{" +
+                "codigo='" + codigo + '\'' +
+                ", titulo='" + titulo + '\'' +
+                ", anio=" + anio +
+                '}';
     }
-
 }
 
-public class Revista extends Publicacion {
-    private int numero;
-
-    public Revista(String codigo, String titulo, int anio, int numero) {
-        super(codigo, titulo, anio);
-        this.numero = numero;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString() + «Numero: » + numero;
-    }
-
-}
-
-public interface Prestable {
+interface Prestable {
     void prestar();
 
     void devolver();
@@ -95,11 +83,11 @@ public class Libro extends Publicacion implements Prestable {
 
     @Override
     public String toString() {
-        return super.toString()+ «Libro [prestado=» + prestado + «]»;
+        return "Libro{" +
+                "prestado=" + prestado +
+                '}';
     }
-
-
 }
 
 
-}
+

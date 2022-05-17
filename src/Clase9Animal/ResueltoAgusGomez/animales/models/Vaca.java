@@ -1,4 +1,4 @@
-package debmedia.ejercicios.animales.models;
+package Clase9Animal.ResueltoAgusGomez.animales.models;
 
 import debmedia.ejercicios.animales.interfaces.Hierba;
 

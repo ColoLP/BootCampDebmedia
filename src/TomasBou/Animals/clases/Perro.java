@@ -13,13 +13,16 @@ public class Perro extends Animal implements ComerCarne {
 
     static void  comerCarne() {
         System.out.println("Soy un perro y comi carne");
-
+        System.out.println("Me gusto mucho la carne");
+        System.out.println("Odio los vegetales");
     }
 
     @Override
     public void hablar() {
 
         System.out.println("Guag Guau");
+        System.out.println("Rrrrrrr");
+        System.out.println("Tomatela, no toques mi carne.");
     }
 
     @Override

@@ -20,7 +20,7 @@ public class Main {
 
     private static void comerAnimal(Animal a){
         if(a.getClass() == Vaca.class){
-            a.comerHierba();a();
+            a.comerHierba();
         }else if(a.getClass() == Perro.class || a.getClass() == Gato.class){
             a.comerCarne();
         }

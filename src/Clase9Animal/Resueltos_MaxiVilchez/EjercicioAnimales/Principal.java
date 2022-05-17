@@ -1,7 +1,11 @@
+package Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales;
+
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Animales;
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Gato;
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Perro;
+import Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models.Vaca;
 import Interfaces.Carnivoro;
 import Interfaces.Herbivoro;
-import Modelos.*;
-
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
