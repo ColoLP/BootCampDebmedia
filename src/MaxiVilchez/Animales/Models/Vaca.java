@@ -1,4 +1,4 @@
-package Clase9Animal.Resueltos_MaxiVilchez.EjercicioAnimales.Models;
+package MaxiVilchez.Animales.Models;
 
 import Interfaces.Herbivoro;
 
@@ -14,6 +14,8 @@ public class Vaca extends Animales implements Herbivoro {
     @Override
     public void hablar() {
        System.out.println(this.getSonido());
+       System.out.println("Hola Hola");
+       System.out.println("Conflicto!");
     }
 
     @Override
