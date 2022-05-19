@@ -1,4 +1,4 @@
-package DebMediaEjercicios;
+package Lautaro.DebMediaEjercicios;
 //Programa para visualizar letras minusculas
 public class SegundaTandaEjercicio1{
     public static void main(String[] args) {

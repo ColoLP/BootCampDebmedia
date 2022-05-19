@@ -1,4 +1,4 @@
-package Abstracta;
+package Lautaro.Abstracta;
 
 public class Gato extends Animal{
     @Override
@@ -15,4 +15,6 @@ public class Gato extends Animal{
     public void comerHierba() {
         System.out.println("No como hierba");
     }
+
+
 }

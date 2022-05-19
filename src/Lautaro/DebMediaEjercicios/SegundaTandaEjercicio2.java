@@ -1,4 +1,4 @@
-package DebMediaEjercicios;
+package Lautaro.DebMediaEjercicios;
 //Programa para factorear numero ingresado
 import java.util.Scanner;
 

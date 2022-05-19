@@ -1,4 +1,4 @@
-package DebMediaEjercicios;
+package Lautaro.DebMediaEjercicios;
 
 public class SegundaTandaEjercicio4 {
     public static void main(String[] args) {

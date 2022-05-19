@@ -1,4 +1,4 @@
-package DebMediaEjercicios;
+package Lautaro.DebMediaEjercicios;
 
 import java.util.ArrayList;
 
