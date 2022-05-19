@@ -1,5 +1,6 @@
-package Clase9Animal.ResueltoAgusGomez.animales.models;
+package AgusGomez.animales.models;
 
+import AgusGomez.animales.interfaces.Carne;
 import debmedia.ejercicios.animales.interfaces.Carne;
 
 public class Perro extends Animal implements Carne {
