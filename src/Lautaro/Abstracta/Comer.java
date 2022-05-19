@@ -1,4 +1,4 @@
-package Abstracta;
+package Lautaro.Abstracta;
 
 public interface Comer {
     void comerCarne();

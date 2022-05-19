@@ -1,4 +1,4 @@
-package Abstracta;
+package Lautaro.Abstracta;
 
 public class Vaca extends Animal {
     @Override

@@ -1,4 +1,4 @@
-package DebMediaEjercicios;
+package Lautaro.DebMediaEjercicios;
 //Calcular factorial del 1 al 10
 public class SegundaTandaEjercicio3 {
     public static void main(String[] args) {

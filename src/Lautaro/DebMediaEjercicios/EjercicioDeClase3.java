@@ -1,3 +1,5 @@
+package Lautaro.DebMediaEjercicios;
+
 import java.util.Scanner;
 
 public class EjercicioDeClase3 {

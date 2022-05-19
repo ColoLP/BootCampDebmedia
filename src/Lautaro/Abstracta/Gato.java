@@ -1,4 +1,4 @@
-package Abstracta;
+package Lautaro.Abstracta;
 
 public class Gato extends Animal{
     @Override
@@ -10,13 +10,12 @@ public class Gato extends Animal{
     public void comerCarne() {
         System.out.println("Como carne");
         System.out.println("Dame Pollito Karen");
-        System.out.println("Tu wiskas es asqueroso");
+        System.out.println("Como pescado");
     }
 
     @Override
     public void comerHierba() {
         System.out.println("No como hierba");
         System.out.println("No como wiskas de pasto");
-        System.out.println("No me gusta el pollo verde");
     }
 }
