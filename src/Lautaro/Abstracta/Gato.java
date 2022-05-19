@@ -8,7 +8,9 @@ public class Gato extends Animal{
 
     @Override
     public void comerCarne() {
-        System.out.println("Como carne");
+        System.out.println("Como carne de vaca");
+        System.out.println("Come carne de pollo");
+        System.out.println("Como pescado");
     }
 
     @Override
