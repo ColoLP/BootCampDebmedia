@@ -1,6 +1,7 @@
-package Clase9Animal.ResueltoAgusGomez.animales.models;
+package AgusGomez.animales.models;
 
-import debmedia.ejercicios.animales.interfaces.Hierba;
+import AgusGomez.animales.interfaces.Hierba;
+import Clase9Animal.ResueltoLucas.Models.Animal;
 
 public class Vaca extends Animal implements Hierba {
     //Constructores

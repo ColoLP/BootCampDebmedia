@@ -1,9 +1,9 @@
-package Clase9Animal.ResueltoAgusGomez.animales;
+package AgusGomez.animales;
 
-import Clase9Animal.ResueltoAgusGomez.animales.models.Animal;
-import Clase9Animal.ResueltoAgusGomez.animales.models.Gato;
-import Clase9Animal.ResueltoAgusGomez.animales.models.Perro;
-import Clase9Animal.ResueltoAgusGomez.animales.models.Vaca;
+import AgusGomez.animales.models.Animal;
+import AgusGomez.animales.models.Gato;
+import AgusGomez.animales.models.Perro;
+import AgusGomez.animales.models.Vaca;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

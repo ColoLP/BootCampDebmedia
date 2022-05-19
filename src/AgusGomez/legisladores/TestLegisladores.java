@@ -1,8 +1,8 @@
-package debmedia.ejercicios.legisladores;
+package AgusGomez.legisladores;
 
-import debmedia.ejercicios.legisladores.models.Diputado;
-import debmedia.ejercicios.legisladores.models.Legislador;
-import debmedia.ejercicios.legisladores.models.Senador;
+import AgusGomez.legisladores.models.Diputado;
+import AgusGomez.legisladores.models.Legislador;
+import AgusGomez.legisladores.models.Senador;
 
 import java.util.ArrayList;
 import java.util.Iterator;

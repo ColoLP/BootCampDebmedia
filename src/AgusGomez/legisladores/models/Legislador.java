@@ -1,4 +1,4 @@
-package debmedia.ejercicios.legisladores.models;
+package AgusGomez.legisladores.models;
 
 abstract public class Legislador extends Persona {
 

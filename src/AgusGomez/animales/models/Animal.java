@@ -1,7 +1,7 @@
-package Clase9Animal.ResueltoAgusGomez.animales.models;
+package AgusGomez.animales.models;
 
-import debmedia.ejercicios.animales.interfaces.Carne;
-import debmedia.ejercicios.animales.interfaces.Hierba;
+import AgusGomez.animales.interfaces.Carne;
+import AgusGomez.animales.interfaces.Hierba;
 
 abstract public class Animal {
 
