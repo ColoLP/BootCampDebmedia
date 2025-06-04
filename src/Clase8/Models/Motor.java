@@ -17,7 +17,9 @@ public class Motor {
     }
 
     public void setTorque(int torque) {
+
         this.torque = torque;
+        this.presionPedal = torque + 1 ;
     }
 
     public Motor() {

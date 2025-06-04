@@ -1,24 +1,33 @@
-## Descripción
+## 📌 Descripción de la Pull Request
 
-¿Qué cambios incluye esta PR?
+Por favor, proporciona una descripción clara y concisa de los cambios realizados en esta PR.
 
-## Tipo de cambio
+---
 
-- [ ] Bugfix 🐛
-- [ ] Nueva funcionalidad ✨
-- [ ] Mejora/refactor 🔧
-- [ ] Cambio que rompe compatibilidad 🚨
+## ✅ Checklist de cambios
 
-## ¿Cómo se ha probado?
+Marca con una `x` los elementos que aplican a esta PR:
 
-Describe cómo se ha probado este cambio.
+- [ ] 🚧 Tiene migraciones (`.Migrations` o cambios en entidades)
+- [ ] ⚙️ Agrega o modifica variables de entorno
+    - [ ] Se actualizó el PR correspondiente en GSM (Google Secret Manager)
+- [ ] 🔌 Agrega un nuevo servicio o modifica conexiones a servicios existentes
+- [ ] 🐰 Agrega colas nuevas en RabbitMQ o modifica colas existentes
+- [ ] 🧾 Modifica la `CustomerConfiguration`
 
-## Checklist
+---
 
-- [ ] He realizado pruebas locales
-- [ ] He actualizado la documentación si era necesario
-- [ ] Los tests pasan correctamente
+## 🧩 Issue relacionada
 
-## Comentarios adicionales
+> Indica el número de Issue relacionado para enlazarlos automáticamente y cerrarlo al hacer merge:
+>
+> 🔗 Closes #<número_del_issue>
 
-¿Algo más que debamos saber?
+## 🧪 ¿Cómo probar estos cambios?
+
+Describe paso a paso cómo probar los cambios localmente o en un entorno de testing.
+
+```bash
+# Comandos útiles para probar
+dotnet ef migrations add NombreDeLaMigracion
+dotnet run
